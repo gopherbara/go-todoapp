@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/golang-jwt/jwt"
-	todo "github.com/vv-projects/go-todoapp"
-	"github.com/vv-projects/go-todoapp/pkg/repository"
+	todo "github.com/gopherbara/go-todoapp"
+	"github.com/gopherbara/go-todoapp/pkg/repository"
 	"time"
 )
 

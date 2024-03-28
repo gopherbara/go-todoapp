@@ -2,12 +2,12 @@ package main
 
 import (
 	"context"
+	todo "github.com/gopherbara/go-todoapp"
+	"github.com/gopherbara/go-todoapp/pkg/handler"
+	"github.com/gopherbara/go-todoapp/pkg/repository"
+	"github.com/gopherbara/go-todoapp/pkg/service"
 	"github.com/joho/godotenv"
 	"github.com/spf13/viper"
-	todo "github.com/vv-projects/go-todoapp"
-	"github.com/vv-projects/go-todoapp/pkg/handler"
-	"github.com/vv-projects/go-todoapp/pkg/repository"
-	"github.com/vv-projects/go-todoapp/pkg/service"
 	"log"
 	"os"
 	"os/signal"

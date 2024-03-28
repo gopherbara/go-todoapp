@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	todo "github.com/vv-projects/go-todoapp"
+	todo "github.com/gopherbara/go-todoapp"
 	"net/http"
 )
 
@@ -34,7 +34,7 @@ type signInInput struct {
 	Password string `json:"password" binding:"required"`
 }
 
-//authentication
+// authentication
 func (h *Handler) signIn(c *gin.Context) {
 	input := signInInput{}
 

@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/vv-projects/go-todoapp/pkg/service"
+	"github.com/gopherbara/go-todoapp/pkg/service"
 )
 
 type Handler struct {

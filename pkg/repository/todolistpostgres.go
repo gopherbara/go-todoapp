@@ -2,8 +2,8 @@ package repository
 
 import (
 	"fmt"
+	todo "github.com/gopherbara/go-todoapp"
 	"github.com/jmoiron/sqlx"
-	todo "github.com/vv-projects/go-todoapp"
 	"strings"
 )
 

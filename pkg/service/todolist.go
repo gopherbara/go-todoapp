@@ -2,8 +2,8 @@ package service
 
 import (
 	"errors"
-	todo "github.com/vv-projects/go-todoapp"
-	"github.com/vv-projects/go-todoapp/pkg/repository"
+	todo "github.com/gopherbara/go-todoapp"
+	"github.com/gopherbara/go-todoapp/pkg/repository"
 )
 
 // service for working with lists

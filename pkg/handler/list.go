@@ -2,7 +2,7 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	todo "github.com/vv-projects/go-todoapp"
+	todo "github.com/gopherbara/go-todoapp"
 	"net/http"
 	"strconv"
 )

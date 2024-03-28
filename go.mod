@@ -1,6 +1,6 @@
-module github.com/vv-projects/go-todoapp
+module github.com/gopherbara/go-todoapp
 
-go 1.18
+go 1.21
 
 require (
 	github.com/gin-gonic/gin v1.8.1
